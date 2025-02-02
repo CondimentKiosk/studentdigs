@@ -1,0 +1,36 @@
+
+
+.bkimg{
+    background-image: url(../styles/duncan-kidd.jpg);
+    background-size: 100%;
+}
+
+a.changecol{
+    color: #000000 !important;
+ }
+
+ .join{
+    padding-top: 60%;
+    padding-bottom: 20%;
+}
+
+
+.buttons img{
+    padding-bottom: 20px;
+}
+
+.buttons .desc{ 
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.buttons .malone{
+    padding-top: 22px;
+    padding-bottom: 22px;
+}
+
+@media (max-width: 640px) {
+    .order-control {
+        order: -1;
+    }
+}

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>student digs</title>
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.15.22/dist/css/uikit.min.css" />
+
+    <!-- UIkit JS -->
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.15.22/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.15.22/dist/js/uikit-icons.min.js"></script>
+
+    <link rel="stylesheet" href="styles/myui.css">
+</head>
+
+<body>
+
+    <div class="uk-grid">
+        <!--student digs title top left-->
+        <div class="uk-width-1-2@s">
+            <div class="uk-padding">
+                <span uk-icon="icon: social; ratio: 2"></span>
+                <span class="uk-text-lead">StudentDigs</span>
+            </div>
+            <!-- tag ling top left 2nd-->
+            <div class="uk-padding-small">
+                <h1 class="uk-heading-bullet">
+                    Find your perfect student digs
+                </h1>
+            </div>
+            <!-- search bar middle left 3rd-->
+            <div class="uk-padding">
+                <form class="uk-form-horizontal">
+                    <input class="uk-input uk-form-width-medium uk-form-large" type="text" placeholder="area"
+                        aria-label="Large">
+                    <a class="uk-button uk-button-secondary uk-button-large">SEARCH</a>
+                </form>
+            </div>
+            <!--faint tag middle left 4th -->
+            <div class="uk-padding uk-text-meta">
+                The most popular property finder for students.
+            </div>
+        </div>
+        <!-- background img-->
+        <div class="uk-width-1-2@s bkimg order-control">
+            <!--nav bar top right 1st-->
+            <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
+                <div class="uk-navbar-left">
+                    <ul class="uk-navbar-nav">
+                        <li class="uk-active"><a href="#">Home</a></li>
+                        <li><a href="#" class="changecol">Areas</a></li>
+                        <li><a href="#" class="changecol">Search</a></li>
+                        <li><a href="#" class="changecol">Sign in</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <!-- join button, middle right 2nd, large padding to push down-->
+            <div class="join">
+                <a class="uk-button uk-button-primary">JOIN TODAY</a>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- bottom page buttons-->
+    <div class="buttons uk-container uk-margin-top uk-align-left@m">
+        <h2 class="uk-heading-line uk-text-right"><span>Top picks digs</span></h2>
+        <div class="uk-grid-column-small uk-grid-row-large uk-child-width-1-3@s" uk-grid>
+            <!-- top row rent cards-->
+            <div>
+                <div class="uk-card uk-card-default uk-card-body uk-card-hover">
+                    <div class="uk-grid-match uk-child-width-expand@s uk-text-center" uk-grid>
+                        <div>
+                            <span class="desc uk-text-large uk-text-left">Ormeau Apartment</span>
+                            <img src="https://images.unsplash.com/photo-1416339306562-f3d12fefd36f?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&s=8aae34cf35df31a592f0bef16e6342ef"
+                                alt="">
+                            <span class="desc uk-text-left"><span uk-icon="icon: check"></span>Ultra Modern</span>
+                            <span class="desc uk-text-left"><span uk-icon="icon: tablet-landscape"></span>2
+                                Bedrooms</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="uk-card uk-card-default uk-card-body uk-card-hover">
+                    <div class="uk-grid-match uk-child-width-expand@s uk-text-center" uk-grid>
+                        <div>
+                            <span class="desc uk-text-large uk-text-left">Stranmillis Apartment</span>
+                            <img src="https://images.unsplash.com/photo-1658089306060-f56ec95cbb8c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=80"
+                                alt="">
+                            <span class="desc uk-text-left"><span uk-icon="icon: check"></span>Waterside Views</span>
+                            <span class="desc uk-text-left"><span uk-icon="icon: tablet-landscape"></span>2
+                                Bedrooms</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="uk-card uk-card-default uk-card-body uk-card-hover">
+                    <div class="uk-grid-match uk-child-width-expand@s uk-text-center" uk-grid>
+                        <div>
+                            <span class="desc uk-text-large uk-text-left">Malone Ave Apartment</span>
+                            <img class="malone"
+                                src="https://images.unsplash.com/photo-1613900412286-13d398a17665?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=450&q=80"
+                                alt="">
+                            <span class="desc uk-text-left"><span uk-icon="icon: check"></span>Close to
+                                University</span>
+                            <span class="desc uk-text-left"><span uk-icon="icon: tablet-landscape"></span>3
+                                Bedrooms</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- bottom row rent cards-->
+            <div>
+                <div class="uk-card uk-card-default uk-card-body uk-card-hover">
+                    <div class="uk-grid-match uk-child-width-expand@s uk-text-center" uk-grid>
+                        <div>
+                            <span class="desc uk-text-large uk-text-left">Lisburn Rd Apartment</span>
+                            <img src="https://images.unsplash.com/photo-1557226217-20f449ace39f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=470&q=80"
+                                alt="">
+                            <span class="desc uk-text-left"><span uk-icon="icon: check"></span>Close to
+                                University</span>
+                            <span class="desc uk-text-left"><span uk-icon="icon: tablet-landscape"></span>2
+                                Bedrooms</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="uk-card uk-card-default uk-card-body uk-card-hover">
+                    <div class="uk-grid-match uk-child-width-expand@s uk-text-center" uk-grid>
+                        <div>
+                            <span class="desc uk-text-large uk-text-left">Lisburn Road</span>
+                            <img src="https://images.unsplash.com/photo-1632301820155-d76aeaab01a5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=80"alt="">
+                            <span class="desc uk-text-left"><span uk-icon="icon: check"></span>Close to shop</span>
+                            <span class="desc uk-text-left"><span uk-icon="icon: tablet-landscape"></span>4 Bedrooms</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="uk-card uk-card-default uk-card-body uk-card-hover">
+                    <div class="uk-grid-match uk-child-width-expand@s uk-text-center" uk-grid>
+                        <div>
+                            <span class="desc uk-text-large uk-text-left">Stranmillis Apartment</span>
+                            <img src="https://images.unsplash.com/photo-1495368427887-e88d33a44e0f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=80" alt="">
+                            <span class="desc uk-text-left"><span uk-icon="icon: check"></span>Waterside Views</span>
+                            <span class="desc uk-text-left"><span uk-icon="icon: tablet-landscape"></span>2 Bedrooms</span>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
